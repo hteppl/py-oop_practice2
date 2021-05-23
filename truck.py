@@ -22,7 +22,7 @@ class Truck(Car):
         result = ''
 
         for key, value in self.cargos.items():
-            result += ('\n - ' + key + ': ' + str(value))
+            result += ('\n - ' + key + ': ' + str(value) + ' кг.')
 
         return result
 

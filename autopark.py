@@ -115,7 +115,7 @@ class Autopark:
             txt.append('\n Бренд: ' + tr.brand)
             txt.append('\n Мощность: ' + str(tr.power) + ' лс.')
             txt.append('\n Год выпуска: ' + str(tr.prod_year))
-            txt.append('\n Макс. грузоподъемность: ' + str(tr.max_capacity))
+            txt.append('\n Макс. грузоподъемность: ' + str(tr.max_capacity) + ' кг.')
             txt.append('\n ФИ водителя: ' + tr.driver)
             txt.append('\n Перевозки: ' + tr.get_all_cargos())
 
