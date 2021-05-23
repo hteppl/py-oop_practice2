@@ -38,7 +38,7 @@ autopark = Autopark('Название Автопарка', cars, trucks)
 autopark.create_txt_file()
 
 # вызов исключения #1 (ValueError)
-autopark.del_truck(2)
+autopark.del_truck(3)
 
 # вызов исключения #2 (ValueError)
 autopark.set_truck(5, Truck('MAN TGX', 440, 2007, 18000, 'Николаев Федор',
