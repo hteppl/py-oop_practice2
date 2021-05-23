@@ -15,7 +15,9 @@ cars.append(PassengerCar('Honda Civic VIII 1.8', 140, 2006, 4,
                              'замена двс': 2012,
                          })))
 cars.append(PassengerCar('Skoda Octavia A8 1.4', 150, 2021, 4,
-                         dict()))
+                         dict({
+                             'замена педали газа': 2021,
+                         })))
 
 trucks = TruckList()
 trucks.append(Truck('Scania R 730', 730, 2010, 28000, 'Волков Валерий',
